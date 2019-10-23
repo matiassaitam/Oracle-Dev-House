@@ -1,0 +1,88 @@
+/* Body */
+body {
+    overflow-x: hidden;
+}
+
+/* GENERAL STYLE CSS */
+.row {
+
+    display: flex;
+}
+
+/* COLUM STYLE CSS */
+.column {
+
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* HEADER STYLE CSS */
+
+.mySearchBar {
+
+    width: 715px;
+}
+
+/* IMAGE STYLE CSS */
+.imageStyle {
+
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+/* SHOPPING CART IMAGES STYLE CSS */
+.shoppingCartImageClass {
+
+    padding: 45px;
+    width: 250px;
+    height: 200px;
+}
+
+/* NAV STYLE CSS */
+nav {
+
+    background-color: rgba(255, 0, 0, 0.774);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAV LINK STYLE CSS */
+.nav-link {
+
+    color: rgba(255, 255, 255, 0.918);
+}
+
+/* NAV LINK HOVER STYLE CSS */
+.nav-link:hover {
+
+    color: rgba(255, 255, 255, 0.753);
+}
+
+/* CONTAINER STYLE CSS */
+.container {
+
+    margin-top: 20px;  
+}
+
+/* FOOTER STYLE CSS */
+footer {
+
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:  	#404040;
+    color: white;
+    text-align: center;
+}
+
+/* ADD/HIDE DOM */
+.hideFromDOM {
+
+    display: none;
+}
